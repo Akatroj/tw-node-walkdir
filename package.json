@@ -1,0 +1,20 @@
+{
+  "name": "lab9",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run zad1 && npm run zad2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zad1": "node src/zad1.js",
+    "zad2": "node src/zad2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.2",
+    "walkdir": "^0.4.1"
+  }
+}
